@@ -6,6 +6,8 @@ Author: Martin Beroiz
 Copyright 2019
 """
 
+__version__ = "1.0"
+
 def add(a, b):
     "Add two numbers"
     return a + b
