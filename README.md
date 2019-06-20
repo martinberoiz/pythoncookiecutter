@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/martinberoiz/simplemath.svg?branch=master)](https://travis-ci.org/martinberoiz/simplemath)
+
 # Simple Math
 
 Simple Math lets you add two numbers
