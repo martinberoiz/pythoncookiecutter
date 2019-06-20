@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/martinberoiz/simplemath.svg?branch=master)](https://travis-ci.org/martinberoiz/simplemath)
+[![codecov](https://codecov.io/gh/martinberoiz/simplemath/branch/master/graph/badge.svg)](https://codecov.io/gh/martinberoiz/simplemath)
 
 # Simple Math
 
