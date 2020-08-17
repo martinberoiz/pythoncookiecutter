@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/martinberoiz/simplemath.svg?branch=master)](https://travis-ci.org/martinberoiz/simplemath)
-[![codecov](https://codecov.io/gh/martinberoiz/simplemath/branch/master/graph/badge.svg)](https://codecov.io/gh/martinberoiz/simplemath)
+[![Build Status](https://travis-ci.org/martinberoiz/pythoncookiecutter.svg?branch=master)](https://travis-ci.org/martinberoiz/pythoncookiecutter)
+[![codecov](https://codecov.io/gh/martinberoiz/pythoncookiecutter/branch/master/graph/badge.svg)](https://codecov.io/gh/martinberoiz/pythoncookiecutter)
 
 # Simple Math
 
