@@ -1,4 +1,5 @@
 from setuptools import setup
+import os
 
 # =============================================================================
 # PATH TO THIS MODULE
@@ -13,9 +14,9 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 
 MODULE_PY_PATH = os.path.join(PATH, "simplemath.py")
 
-with open(MODULE_PY_PATH, 'r') as f:
+with open(MODULE_PY_PATH, "r") as f:
     for line in f:
-        if line.startswith('__version__'):
+        if line.startswith("__version__"):
             _, _, MODULE_VERSION = line.replace('"', "").split()
             break
 
@@ -26,18 +27,19 @@ with open(MODULE_PY_PATH, 'r') as f:
 
 README_MD_PATH = os.path.join(PATH, "README.md")
 
-with open(README_MD_PATH, 'r') as f:
+with open(README_MD_PATH, "r") as f:
     LONG_DESCRIPTION = f.read()
 
 
-setup(name='simplemath',
-      version=MODULE_VERSION,
-      description='Simple Math Module',
-      long_description=LONG_DESCRIPTION,
-      long_description_content_type="text/markdown",
-      author='Martin Beroiz',
-      author_email='martinberoiz@gmail.com',
-      py_modules=['simplemath', ],
-      install_requires=[numpy,],
-      test_suite='tests',
-     )
+setup(
+    name="simplemath",
+    version=MODULE_VERSION,
+    description="Simple Math Module",
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
+    author="Martin Beroiz",
+    author_email="martinberoiz@gmail.com",
+    py_modules=["simplemath"],
+    install_requires=["numpy"],
+    test_suite="tests",
+)
