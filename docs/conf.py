@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -21,8 +21,15 @@ project = 'simplemath'
 copyright = '2019, Martin Beroiz'
 author = 'Martin Beroiz'
 
+# Get the version from properimage package itself (not imported)
+with open(os.path.join("..", "simplemath.py"), "r") as f:
+    for line in f:
+        if line.startswith("__version__"):
+            _, _, __version__ = line.replace('"', "").split()
+            break
+#
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = __version__
 
 
 # -- General configuration ---------------------------------------------------
